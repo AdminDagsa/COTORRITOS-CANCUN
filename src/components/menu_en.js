@@ -18,9 +18,6 @@ export default function Menu_en() {
         <Link className="link-button" to="/drinks">
           <button className="menu-button">Drinks</button>
         </Link>
-        <Link className="link-button" to="/shot">
-          <button className="menu-button">Shots</button>
-        </Link>
         <div className="grid-container-icons">
           <Link
             className="link-scl"

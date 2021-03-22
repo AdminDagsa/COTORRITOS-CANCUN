@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../css/style.css"
+import us from "../images/us.png"
 import fb from "../images/fb.png"
 import ins from "../images/ins.png"
 
@@ -33,6 +34,9 @@ export default function Menu() {
             <img className="menu-scl" alt="" src={ins} />
           </Link>
           <div></div>
+          <Link className="link-img" to="/en">
+            <img className="menu-img" alt="" src={us} />
+          </Link>
         </div>
       </div>
     </section>
