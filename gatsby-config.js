@@ -14,15 +14,16 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp` /*
+    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-180163843-1",
-        head: true,
-        anonymize: true,
+        trackingIds: ["G-429TXWZS3X"],
+        pluginConfig: {
+          head: true,
+        },
       },
-    },*/,
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
